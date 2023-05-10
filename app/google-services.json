@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "81046798571",
+    "project_id": "plantaideapp",
+    "storage_bucket": "plantaideapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:81046798571:android:87f58a868a0915cadcbeae",
+        "android_client_info": {
+          "package_name": "com.example.plantaide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "81046798571-b5qf3bihgk0rpgnn7gd537tron2s2c2s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.plantaide",
+            "certificate_hash": "0a4ffadf317bcb74f2c23dfb50c04dc048f89488"
+          }
+        },
+        {
+          "client_id": "81046798571-q7nh0uupbq8epa5jq77h53fc0ekm0vuv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYflQv66AYp3iFtBCnO__KyTHQI4Hcows"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "81046798571-q7nh0uupbq8epa5jq77h53fc0ekm0vuv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

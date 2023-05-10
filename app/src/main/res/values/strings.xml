@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PlantAide</string>
+    <string name="app_name_after">Helps heal plants</string>
+    <string name="text_bottom">Войдите в свою учетную запись</string>
+    <string name="btnSignIn">Войти</string>
+    <string name="btnRegisterIn">Зарегистрироваться</string>
+    <string name="about_scan">Обработка</string>
+    <string name="main_scene">Главная</string>
+    <string name="logo_1">Plant</string>
+    <string name="logo_2">Aide</string>
+    <string name="course_exciter">Возбудитель:</string>
+    <string name="course_sign">Признаки:</string>
+    <string name="course_ill_description">Пока ничего</string>
+    <string name="saveTo">Save</string>
+    <string name="delete">удалить</string>
+
+</resources>
