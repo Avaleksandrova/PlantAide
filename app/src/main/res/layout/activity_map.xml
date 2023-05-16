@@ -9,27 +9,13 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
-        android:layout_width="65dp"
+        android:layout_width="50dp"
         android:layout_height="0dp"
         android:background="@color/aside_color"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <TextView
-            android:id="@+id/scan_main"
-            android:layout_width="130dp"
-            android:layout_height="145dp"
-            android:layout_marginBottom="340dp"
-            android:fontFamily="@font/montserrat"
-            android:gravity="center"
-            android:rotation="-90"
-            android:text="@string/about_scan"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
 
 
         <TextView
@@ -37,14 +23,15 @@
             android:layout_width="100dp"
             android:layout_height="145dp"
             android:layout_marginTop="29dp"
-            android:layout_marginBottom="144dp"
+            android:layout_marginBottom="485dp"
             android:fontFamily="@font/montserrat_bold"
             android:gravity="center"
             android:rotation="-90"
             android:text="@string/main_scene"
             android:textColor="@color/black"
             android:textSize="20sp"
-            app:layout_constraintBottom_toBottomOf="@id/scan_main"
+
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -78,12 +65,28 @@
         app:layout_constraintStart_toEndOf="@+id/textView6"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/text_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="359dp"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/information"
+        android:textColor="@color/text_bottom"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/courseDisease"
+        app:layout_constraintStart_toEndOf="@+id/constraintLayout"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/courseDisease"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="50dp"
         android:layout_marginBottom="160dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -110,8 +113,8 @@
 
     <ImageButton
         android:id="@+id/imageButton2"
-        android:layout_width="160dp"
-        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="95dp"
         android:layout_marginEnd="91dp"
         android:layout_marginBottom="80dp"
